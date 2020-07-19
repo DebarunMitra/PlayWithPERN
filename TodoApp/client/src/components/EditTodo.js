@@ -39,7 +39,7 @@ const EditTodo = ({ todo }) => {
         id = id10
       */}
       <div
-        className="modal"
+        className="modal fade"
         id={`id${todo.todo_id}`}
         onClick={() => setDescription(todo.description)}
       >
